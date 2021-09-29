@@ -86,6 +86,9 @@ interface ViewerProps {
   // disable keyboard support
   disableKeyboardSupport?: boolean;
 
+  // disable event bubbling
+  stopEventPropagation?: boolean;
+
   // no reset zoom after image change
   noResetZoomAfterChange?: boolean;
 
